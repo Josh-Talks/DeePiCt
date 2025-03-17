@@ -1,9 +1,8 @@
 name: 3d-unet
 channels:
   - bioconda
-  - anaconda
   - conda-forge
-  - default
+  - nodefaults
 dependencies:
   - python=3.7
   - jupyter
