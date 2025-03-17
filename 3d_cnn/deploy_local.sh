@@ -8,7 +8,7 @@ echo PYTHONPATH=$PYTHONPATH
 
 snakemake \
     --snakefile "${srcdir}/snakefile" \
-    --config config="${config_file}" gpu=$CUDA_VISIBLE_DEVICES \
+    --config config="${config_file}" gpu=0 \
     --use-conda \
     --printshellcmds \
     --cores 1 --resources gpu=1
